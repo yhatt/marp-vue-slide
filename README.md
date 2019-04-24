@@ -2,7 +2,11 @@
 
 A practical browser-based [Marp](https://github.com/marp-team/marp) slide deck made by [Marp Vue](https://github.com/marp-team/marp-vue). Edit [`public/slide.md`](public/slide.md) to create your slide deck.
 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-vue-slide)
+
 ## Usage
+
+:point_right: https://marp-vue-slide.netlify.com/
 
 - Navigate slide by arrow keys.
 - Toggle fullscreen by hitting <kbd>F</kbd> or <kbd>F11</kbd>.
