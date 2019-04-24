@@ -11,8 +11,8 @@ A practical browser-based [Marp](https://github.com/marp-team/marp) slide deck m
 - Navigate slide by arrow keys.
 - Toggle fullscreen by hitting <kbd>F</kbd> or <kbd>F11</kbd>.
 - Open presenter view window by hitting <kbd>P</kbd>.
-- You can export slide to PDF by <kbd>Ctrl/Cmd</kbd>+<kbd>P</kbd> if you are using Chrome/Chromium.
-- A raw Markdown can see by accessing to `/slide.md`.
+- You can export slide to PDF by <kbd>Ctrl/Cmd</kbd>+<kbd>P</kbd> if you are using Chrome/Chromium. Netlify will output an auto-generated PDF to [`/slide.pdf`](https://marp-vue-slide.netlify.com/slide.pdf).
+- A raw Markdown can see by accessing to [`/slide.md`](https://marp-vue-slide.netlify.com/slide.md).
 
 ## Project setup
 
