@@ -1,0 +1,3 @@
+[build]
+  publish = "dist"
+  command = "yarn build && yarn add --dev puppeteer && CHROME_PATH=$(node .puppeteer.js) yarn netlify"

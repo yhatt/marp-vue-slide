@@ -4,8 +4,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>Marp Vue slide</title>
+    <link rel="canonical" href="<%- BASE_URL %>">
+    <link rel="icon" href="<%- BASE_URL %>favicon.ico">
+    <title><%- htmlWebpackPlugin.options.title %></title>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="<%- htmlWebpackPlugin.options.title %>">
+    <meta property="og:image:alt" content="<%- htmlWebpackPlugin.options.title %>">
+    <meta name="description" content="<%- htmlWebpackPlugin.options.description %>">
+    <meta property="og:description" content="<%- htmlWebpackPlugin.options.description %>">
+    <meta property="og:url" content="<%- BASE_URL %>">
+    <meta property="og:image" content="<%- BASE_URL %>slide.jpg">
+    <meta name="twitter:card" content="summary_large_image">
   </head>
   <body>
     <noscript>

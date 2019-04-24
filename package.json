@@ -6,7 +6,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "pdf": "marp ./public/slide.md"
+    "pdf": "marp ./public/slide.md -o ./dist/slide.pdf",
+    "og-image": "marp ./public/slide.md -o ./dist/slide.jpg",
+    "netlify": "yarn pdf && yarn og-image"
   },
   "prettier": {
     "semi": false,
@@ -14,7 +16,6 @@
     "trailingComma": "es5"
   },
   "marp": {
-    "output": "./dist/slide.pdf",
     "allowLocalFiles": true
   },
   "dependencies": {

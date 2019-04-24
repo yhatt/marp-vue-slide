@@ -1,5 +1,7 @@
 ---
 marp: true
+title: marp-vue-slide
+description: A practical browser-based Marp slide deck made by Marp Vue
 ---
 
 # marp-vue-slide
