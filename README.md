@@ -21,7 +21,8 @@ yarn install
 - `yarn serve`: Compiles and hot-reloads for development
 - `yarn build`: Compiles and minifies for production
 - `yarn lint`: Lints and fixes files
-- `yarn pdf`: Export PDF from slide Markdown for production (Powered by [Marp CLI](https://github.com/marp-team/marp-cli))
+- `yarn pdf`: Exports PDF from slide Markdown for production (Powered by [Marp CLI](https://github.com/marp-team/marp-cli))
+- `yarn og-image`: Outputs JPG image for Open Graph image
 
 ## License
 
